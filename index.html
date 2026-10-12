@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sílabo interactivo · Proyecto final</title>
+<style>
+  :root {
+    --bg: #ffffff; --ink: #1a1d2e; --muted: #5a5f73; --card: #f4f3fd;
+    --line: #e2e1f0; --violet: #5B4BDB; --teal: #0D9488; --night: #0B1020; --gold: #FFC629;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0f1324; --ink: #eceef6; --muted: #a6abc0; --card: #1a1f36; --line: #2b3150; --violet: #9d93f5; --teal: #3cc7b8; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: Calibri, "Segoe UI", Arial, sans-serif; font-size: 18px; line-height: 1.5; }
+  header { background: var(--night); color: #fff; padding: 48px 16px 40px; }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 0 16px; }
+  header .wrap { padding: 0; }
+  .kicker { color: var(--gold); letter-spacing: .12em; font-size: 14px; font-weight: 700; text-transform: uppercase; margin: 0 0 8px; }
+  h1 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(32px, 6vw, 48px); line-height: 1.1; margin: 0 0 8px; }
+  .sub { color: var(--gold); margin: 0 0 4px; }
+  .sub-en { color: #c9cce0; font-style: italic; margin: 0 0 24px; }
+  .authors { margin: 0 0 20px; }
+  .ai { font-size: 15px; color: #c9cce0; font-style: italic; margin: 0; }
+  h2 { font-family: Georgia, "Times New Roman", serif; font-size: 28px; margin: 40px 0 12px; }
+  .lang { font-size: 14px; font-weight: 700; color: var(--violet); text-transform: uppercase; letter-spacing: .08em; }
+  .videos { display: grid; grid-template-columns: 1fr; gap: 28px; }
+  @media (min-width: 860px) { .videos { grid-template-columns: 1fr 1fr; } }
+  figure { margin: 0; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px; }
+  video { width: 100%; height: auto; display: block; border-radius: 8px; background: #000; aspect-ratio: 16 / 9; }
+  figcaption { margin-top: 10px; color: var(--muted); font-size: 16px; }
+  .summary { display: grid; grid-template-columns: 1fr; gap: 20px; }
+  @media (min-width: 860px) { .summary { grid-template-columns: 1fr 1fr; } }
+  .summary p { margin: 6px 0 0; }
+  ul.files { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+  ul.files a { display: block; padding: 14px 16px; border: 1px solid var(--line); border-left: 4px solid var(--teal); border-radius: 8px; color: var(--ink); text-decoration: none; background: var(--card); }
+  ul.files a:hover, ul.files a:focus-visible { border-left-color: var(--violet); }
+  ul.files span { display: block; color: var(--muted); font-size: 15px; }
+  a { color: var(--violet); }
+  footer { margin: 48px 0 32px; color: var(--muted); font-size: 15px; border-top: 1px solid var(--line); padding-top: 16px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <p class="kicker">Vibe Coding CEDIA 2026 · Guía 21 · Guide 21</p>
+    <h1>Sílabo interactivo<br>Interactive Syllabus</h1>
+    <p class="sub">Toma de decisiones y comunicación estratégica en salud</p>
+    <p class="sub-en">Decision Making and Strategic Communication in Health</p>
+    <p class="authors">Daniel Rodríguez Villalba · Universidad UTE<br>Juan Pablo Arrobo · UTPL</p>
+    <p class="ai">Narración generada con voz de IA (ElevenLabs) y revisada por los autores.<br>Narration generated with an AI voice (ElevenLabs) and reviewed by the authors.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <h2>Videos</h2>
+  <div class="videos">
+    <figure>
+      <video controls preload="metadata" src="VC-2026-044-021_ProyectoFinal_ES.mp4"></video>
+      <figcaption><span class="lang">Español</span> · 3:58 · <a href="VC-2026-044-021_ProyectoFinal_ES.mp4">Descargar MP4</a></figcaption>
+    </figure>
+    <figure>
+      <video controls preload="metadata" src="VC-2026-044-021_ProyectoFinal_EN.mp4" lang="en"></video>
+      <figcaption><span class="lang">English</span> · 4:29 · <a href="VC-2026-044-021_ProyectoFinal_EN.mp4">Download MP4</a></figcaption>
+    </figure>
+  </div>
+
+  <h2>Resumen · Summary</h2>
+  <div class="summary">
+    <div>
+      <span class="lang">Español</span>
+      <p>El sílabo en PDF nombraba los artículos de consulta, pero los estudiantes no sabían cuándo ni para qué leerlos. Con Claude convertimos el sílabo aprobado en un sitio bilingüe para el teléfono. Cada versión la revisaron los docentes contra el sílabo; la prueba con estudiantes queda pendiente.</p>
+    </div>
+    <div lang="en">
+      <span class="lang">English</span>
+      <p>The PDF syllabus listed the reference articles, but students did not know when or why to read them. Using Claude, we turned the approved syllabus into a bilingual, phone-friendly site. The instructors reviewed every version against the syllabus; testing with students is still pending.</p>
+    </div>
+  </div>
+
+  <h2>Archivos · Files</h2>
+  <ul class="files">
+    <li><a href="VC-2026-044-021_ProyectoFinal_ES.pptx">Presentación en español<span>VC-2026-044-021_ProyectoFinal_ES.pptx</span></a></li>
+    <li><a href="VC-2026-044-021_ProyectoFinal_EN.pptx" lang="en">Presentation in English<span>VC-2026-044-021_ProyectoFinal_EN.pptx</span></a></li>
+    <li><a href="VC-2026-044-021_NotaMetodologica.docx">Nota metodológica<span>VC-2026-044-021_NotaMetodologica.docx</span></a></li>
+    <li><a href="Narracion_ElevenLabs_VC-2026-044-021.txt">Texto de la narración · Narration script<span>Narracion_ElevenLabs_VC-2026-044-021.txt</span></a></li>
+    <li><a href="https://darv1970.github.io/Silabo-V5/">Sitio de la herramienta · Tool website<span>darv1970.github.io/Silabo-V5</span></a></li>
+  </ul>
+
+  <h2>Narración por diapositiva · Narration by slide</h2>
+  <div class="audios">
+    <p><span class="lang">Español</span><br>
+      <a href="audios/ES_01.mp3">01</a> · <a href="audios/ES_02.mp3">02</a> · <a href="audios/ES_03.mp3">03</a> · <a href="audios/ES_04.mp3">04</a> · <a href="audios/ES_05.mp3">05</a> · <a href="audios/ES_06.mp3">06</a> · <a href="audios/ES_07.mp3">07</a> · <a href="audios/ES_08.mp3">08</a> · <a href="audios/ES_09.mp3">09</a> · <a href="audios/ES_10.mp3">10</a></p>
+    <p lang="en"><span class="lang">English</span><br>
+      <a href="audios/EN_01.mp3">01</a> · <a href="audios/EN_02.mp3">02</a> · <a href="audios/EN_03.mp3">03</a> · <a href="audios/EN_04.mp3">04</a> · <a href="audios/EN_05.mp3">05</a> · <a href="audios/EN_06.mp3">06</a> · <a href="audios/EN_07.mp3">07</a> · <a href="audios/EN_08.mp3">08</a> · <a href="audios/EN_09.mp3">09</a> · <a href="audios/EN_10.mp3">10</a></p>
+  </div>
+
+  <footer>Vibe Coding CEDIA 2026 · Universidad UTE · UTPL</footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,187 @@
+NARRACIÓN PARA ELEVENLABS · Sílabo interactivo · VC-2026-044-021
+Configuración: modelo Eleven Multilingual v2 · la MISMA voz en los 20 audios · Stability 0,5 · Similarity 0,75 · Speed 1,0
+Pegue cada bloque en Text to Speech y descargue el MP3 con el nombre indicado.
+
+============================================================
+ESPAÑOL
+============================================================
+
+----- ES_01.mp3 -----
+Le presentamos el Sílabo interactivo de Toma de decisiones y comunicación estratégica en salud.
+Lo construimos Daniel Rodríguez y Juan Pablo Arrobo.
+Convierte el sílabo en un sitio que se explora desde el teléfono.
+
+----- ES_02.mp3 -----
+Nuestra materia forma parte de la Maestría en Gerencia de Salud.
+Hasta ahora el sílabo llegaba como un archivo P D F.
+Allí estaba todo, en un documento largo y fijo.
+El problema más claro apareció con las lecturas.
+Los artículos de consulta estaban nombrados en el sílabo.
+Aun así los estudiantes no sabían cómo se relacionaban con el desarrollo de la materia.
+Una lista no explica cuándo ni para qué leer cada artículo.
+
+----- ES_03.mp3 -----
+Lo usan los estudiantes de la materia.
+Reciben un solo enlace.
+Al abrirlo encuentran el cronograma de las cuatro sesiones y el esquema de evaluación.
+También ven los recursos, la bibliografía y el contacto de los docentes.
+Además pueden llevar un seguimiento sencillo de sus tareas de cada semana.
+Todo está en español y en inglés.
+Se basa en la guía veintiuno del curso.
+
+----- ES_04.mp3 -----
+El proceso tiene cuatro pasos.
+Primero partimos del sílabo aprobado y de la lista de recursos.
+Luego Claude generó el sitio a partir de ese material.
+Cada sección sale de una parte del sílabo.
+Después los docentes revisamos cada versión contra el sílabo y pedimos correcciones.
+Así llegamos a cinco versiones.
+Finalmente publicamos el sitio en GitHub Pages.
+La I A propone el contenido y el diseño.
+Las personas decidimos siempre qué se publica, qué fechas valen y qué recursos entran.
+
+----- ES_05.mp3 -----
+Comprobamos cuatro aspectos.
+El contenido y las fechas de las cuatro sesiones coinciden con el sílabo aprobado.
+En la última revisión encontramos una diferencia en el periodo y la corregimos.
+El sitio funciona en cuatro teléfonos distintos.
+Tres de tres colegas encontraron sencilla la navegación.
+La revisión docente sumó la versión en inglés y más recursos en cada versión.
+Todavía no lo probamos con estudiantes.
+Eso es por ahora una propuesta.
+
+----- ES_06.mp3 -----
+El sitio no reemplaza las clases sincrónicas.
+Tampoco reemplaza a Moodle.
+Moodle sigue siendo el vínculo oficial para entregar tareas y rendir evaluaciones.
+No pide nombres ni correos.
+Las marcas de tareas quedan solo en el navegador del estudiante.
+El siguiente paso es enlazarlo al Moodle del curso y probarlo con estudiantes del próximo periodo.
+
+----- ES_07.mp3 -----
+Veamos el sitio.
+Esta es la pantalla que ve el estudiante al abrir el enlace.
+Arriba elige entre español e inglés.
+Debajo del título están las tres tareas más frecuentes.
+Ver la próxima actividad, encontrar las lecturas y contactar a los docentes.
+A la derecha hay un video de un minuto que resume la materia.
+Desde aquí se llega a cada sección.
+
+----- ES_08.mp3 -----
+Esta es la sección de artículos de consulta.
+Aquí está la respuesta a nuestro problema.
+Cada artículo lleva la etiqueta de la semana en que se usa en clase.
+Además tiene un resumen breve y un resumen en audio.
+Incluye la referencia A P A y el enlace a la fuente original.
+Así el estudiante sabe qué leer y cuándo hacerlo, antes de abrirlo.
+Los dos artículos son de acceso abierto.
+
+----- ES_09.mp3 -----
+Esta es la lista Mis tareas por semana.
+Las lecturas y actividades aparecen junto a la fecha de cada clase.
+El estudiante marca lo que ya hizo y ve su avance.
+El aviso es claro.
+Marcar aquí no entrega la tarea.
+Las entregas se hacen en el Aula Virtual.
+Las marcas quedan solo en su navegador y no se envían a nadie.
+
+----- ES_10.mp3 -----
+Con este sitio el sílabo deja de ser un documento fijo.
+Se convierte en una guía para cada semana.
+Esperamos dedicar menos tiempo a repetir fechas y más a la conversación en clase.
+El siguiente paso es probarlo con estudiantes desde Moodle.
+Le invitamos a abrir el enlace y adaptarlo a su materia.
+Muchas gracias.
+============================================================
+INGLÉS
+============================================================
+
+----- EN_01.mp3 -----
+We present the Interactive Syllabus for Decision Making and Strategic Communication in Health.
+It was built by Daniel Rodríguez and Juan Pablo Arrobo.
+It turns the course syllabus into a website that students can explore from their phones.
+
+----- EN_02.mp3 -----
+Our course is part of the Master's program in Health Management.
+Until now the syllabus reached students only as a P D F file.
+Everything was there, but in a long and static document that was hard to navigate.
+The clearest problem appeared with the readings.
+The reference articles were listed in the syllabus.
+Even so students did not see how they connected to the development of the course.
+A list of references does not explain when or why to read each article.
+
+----- EN_03.mp3 -----
+The users are the students of the course.
+They receive a single link.
+When they open it they find the schedule of the four sessions and the grading scheme.
+They also see the resources, the bibliography and the instructors' contact details.
+In addition they can keep simple track of their weekly tasks.
+Everything is available in Spanish and in English.
+The site is based on guide twenty one of our course.
+
+----- EN_04.mp3 -----
+The process has four steps.
+First we started from the approved syllabus and the list of resources.
+Then Claude generated the website from that material.
+Each section comes from a specific part of the syllabus.
+Next we as instructors reviewed every version against the syllabus and asked for corrections.
+Claude never published anything on its own.
+That is how we reached five versions.
+Finally we published the site on GitHub Pages.
+The A I proposes the content and the design.
+People always decide what gets published, which dates are valid and which resources are included.
+
+----- EN_05.mp3 -----
+We verified four things.
+The content and the dates of the four sessions match the approved syllabus.
+In our last review we found a mismatch in the course period and corrected it.
+The site works on four different phones.
+Three out of three colleagues found the navigation simple.
+Our review as instructors added the English version and more resources in each version.
+We have not yet tested the site with our students.
+For now that remains a proposal for the next term.
+
+----- EN_06.mp3 -----
+The site does not replace the live online classes.
+It does not replace Moodle either.
+Moodle remains the official channel for submitting assignments and taking exams.
+The site does not ask for names or email addresses.
+Task checkmarks stay only in each student's browser.
+Our next step is to link the site from Moodle.
+Then we will test it with students next term.
+
+----- EN_07.mp3 -----
+Let's look at the site.
+This is the screen students see when they open the link.
+Our screenshots show the Spanish version, and the site also has an English version.
+At the top they choose the language.
+Below the title are the three most common tasks.
+See the next activity, find the readings and contact the instructors.
+On the right there is a one minute video that summarizes the course.
+
+----- EN_08.mp3 -----
+This is the reference articles section.
+Here is the answer to our problem.
+Each article is labeled with the week when it is used in class.
+The audio summaries are recorded in Spanish and in English.
+It also includes a short summary and an audio summary.
+It gives the A P A reference and a link to the original source.
+That way students know what to read and when to read it before they even open it.
+Both articles are open access.
+
+----- EN_09.mp3 -----
+This is the weekly task list, called My tasks by week.
+Readings and activities appear next to the date of each class.
+Students check off what they have done and see their own progress.
+The notice is clear and always visible.
+Checking a task here does not submit it.
+Assignments are submitted in the virtual classroom.
+The checkmarks are saved only in the student's browser and are never sent to anyone.
+
+----- EN_10.mp3 -----
+With this site the syllabus is no longer a static document.
+It becomes a guide for every week of the course.
+We hope to spend less time repeating dates and more time on conversation in class.
+Our next step is to test it with students through Moodle.
+We invite you to open the link and adapt the idea to your own course.
+Thank you.
